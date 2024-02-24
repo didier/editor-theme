@@ -2,7 +2,7 @@
 
 Editor is a sleek dark theme for VS Code.
 
-![Dark](https://github.com/didier/editor-theme/blob/main/assets/example-2.png)
+![Dark](./assets/example-2.png)
 
 ## Custom config
 
