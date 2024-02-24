@@ -1,0 +1,22 @@
+{
+  "name": "vscode-grids-theme",
+  "displayName": "Grids",
+  "version": "1.0.0",
+  "description": "A beautiful theme for Visual Studio Code",
+  "publisher": "Didier Catz <https://github.com/didier>",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Grids — Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  }
+}
