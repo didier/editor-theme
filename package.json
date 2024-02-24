@@ -1,9 +1,10 @@
 {
   "name": "editor-theme",
-  "displayName": "Editor",
-  "version": "0.5.0",
+  "displayName": "Editor Theme",
+  "version": "0.6.0",
   "description": "Editor is a sleek dark theme for VS Code.",
-  "publisher": "Didier Catz <https://github.com/didier>",
+  "author": "Didier Catz <https://github.com/didier>",
+  "publisher": "Didier",
   "scripts": {
     "build": "vsce package",
     "publish": "vsce publish"
@@ -11,6 +12,11 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/didier/editor-theme.git"
+  },
+    "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#f5f3ff",
+    "theme": "dark"
   },
   "engines": {
     "vscode": "^1.0.0"
