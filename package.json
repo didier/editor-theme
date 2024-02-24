@@ -1,40 +1,40 @@
 {
-  "name": "editor-theme",
-  "displayName": "Editor Theme",
-  "version": "0.6.2",
-  "description": "Editor is a sleek dark theme for VS Code.",
-  "author": "Didier Catz <https://github.com/didier>",
-  "publisher": "Didier",
-  "scripts": {
-    "build": "vsce package",
-    "publish": "vsce publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/didier/editor-theme.git"
-  },
-  "icon": "assets/icon.png",
-  "galleryBanner": {
-    "color": "#0a0a0a",
-    "theme": "dark"
-  },
-  "engines": {
-    "vscode": "^1.0.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Editor Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
-      }
-    ]
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "prettier": "^3.2.5"
-  }
+    "name": "editor-theme",
+    "displayName": "Editor Theme",
+    "version": "0.6.3",
+    "description": "Editor is a sleek dark theme for VS Code.",
+    "author": "Didier Catz <https://github.com/didier>",
+    "publisher": "Didier",
+    "scripts": {
+        "build": "vsce package",
+        "publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/didier/editor-theme.git"
+    },
+    "icon": "assets/icon.png",
+    "galleryBanner": {
+        "color": "#0a0a0a",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Editor Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "prettier": "^3.2.5"
+    }
 }
