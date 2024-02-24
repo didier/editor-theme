@@ -1,7 +1,7 @@
 {
   "name": "editor-theme",
   "displayName": "Editor Theme",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Editor is a sleek dark theme for VS Code.",
   "author": "Didier Catz <https://github.com/didier>",
   "publisher": "Didier",
@@ -15,7 +15,7 @@
   },
   "icon": "assets/icon.png",
   "galleryBanner": {
-    "color": "#f5f3ff",
+    "color": "#0a0a0a",
     "theme": "dark"
   },
   "engines": {
