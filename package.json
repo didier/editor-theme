@@ -1,9 +1,13 @@
 {
-  "name": "vscode-grids-theme",
-  "displayName": "Grids",
+  "name": "editor-theme",
+  "displayName": "Editor",
   "version": "1.0.0",
   "description": "A beautiful theme for Visual Studio Code",
   "publisher": "Didier Catz <https://github.com/didier>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/didier/editor-theme.git"
+  },
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -13,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Grids — Dark",
+        "label": "Editor Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/theme.json"
+        "path": "./themes/dark.json"
       }
     ]
   }
